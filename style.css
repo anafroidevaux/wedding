@@ -1,0 +1,157 @@
+body {
+  font-family: 'Rancho', cursive;
+  font-size: 22px;
+}
+
+h2 {
+  height: 100px;
+  background-color: white;
+  color:#DB4437;
+  padding-left: 60px;
+  margin: 0;
+  line-height: 100px;
+  font-size: 32px;
+}
+
+p {
+  margin: 0;
+  padding: 60px;
+}
+
+.container {
+  width: 1480px;
+  margin: 0 auto;
+}
+
+.invitation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 80px;
+  height: 720px;
+  background-image: url(images/photo-1482267553367-e79b27d2bba1.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  margin: 0 auto;
+  list-style-type: none; 
+}
+
+.rings {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("images/photo-1515626553181-0f218cb03f14.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  margin: 0 auto;
+  padding-left: 150px;
+  height: 720px;
+}
+
+.rings .bloc {
+  background-color: white;
+  color: black;
+  opacity: 0.8;
+}
+
+.rings .bloc .title {
+  background-color: #DEEBEC;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #DB4437;
+  font-size: 48px;
+}
+
+.rings .bloc .details {
+  padding: 30px;
+}
+
+.rings .bloc .map {
+  color: white;
+  background-color: #DB4437;
+  text-align: center;
+  margin: 0 auto;
+  width: 150px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.info {
+  text-align: center;
+  background-color: #DB4437;
+  height: 100px;
+}
+
+.info a {
+  color:white;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 100px;
+  text-decoration: none;
+}
+
+.info a.active {
+  text-decoration: underline;
+}
+
+#organization {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #DB4437;
+  background-color: white;
+  height: 100px;
+  font-size: 32px;
+}
+
+#details {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  background-color: #DEEBEC;
+  height: 1000px;
+  padding-top: 50px;
+}
+
+.wrapper{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  
+}
+
+.column {
+  width: 740px;
+  height: 640px;
+}
+
+.columns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.description {
+  background: #DEEBEC;
+  height: 540px;
+}
+
+.contact{
+  padding-top: 100px;
+  padding-bottom: 200px;
+  text-align: center;
+  background-color: #DEEBEC;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  background-color: #DB4437;
+  height: 100px;
+}
